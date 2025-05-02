@@ -3834,10 +3834,6 @@ html {
    border-radius: 10px
 }
 
-.root .rounded-2xl {
-   border-radius: 1rem
-}
-
 .root .rounded-none {
    border-radius: 0
 }
