@@ -3,9 +3,13 @@
 }
 
 .root .rounded-2xl {
-   border-radius: 0rem !important;
+   border-radius: 0.5rem !important;
 }
 /*! test deployment 2*/
+
+.root .rec {
+   fill: #FFCD33
+}
 
 :root {
    --lm-digital-web-messenger-text-default: #444444;
