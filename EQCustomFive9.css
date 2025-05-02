@@ -2,6 +2,9 @@
    border-radius: 6px;
 }
 
+.root .rounded-2xl {
+   border-radius: 0rem !important;
+}
 /*! test deployment 2*/
 
 :root {
