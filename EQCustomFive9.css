@@ -34,6 +34,10 @@ g[mask] path {
    color: rgb(0, 0, 0) !important;
 }
 
+.pn-msg:hover {
+   background: #FBF8F3 !important; 
+}
+
 
 
 
