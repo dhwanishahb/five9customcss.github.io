@@ -22,10 +22,16 @@ g[mask] path {
    fill: #0E0D0C !important;
 }
 
-/* EQ Bot Icon color */
+/* EQ Bot Icon background color */
 .root .bg-neutral-focus {
    --tw-bg-opacity: 1;
    background-color: #FFCD33 !important;
+}
+
+/* EQ Bot Icon Font color */
+.root .text-neutral-content {
+   --tw-text-opacity: 1;
+   color: rgb(0, 0, 0) !important;
 }
 
 
