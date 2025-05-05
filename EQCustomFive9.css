@@ -10,4 +10,16 @@
    background-color: rgb(0, 0, 0) !important;
 }
 
+/* Private chat: send icon background color */
+svg rect {
+   fill: #FFCD33 !important;
+}
+
+/* Private chat: send icon plane color */
+g[mask] path {
+   fill: #0E0D0C !important;
+}
+
+
+
 
