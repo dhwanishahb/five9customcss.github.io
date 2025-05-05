@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities; */
 
+:root {
+   --linear: #FBF8F3 !important
+}
+
 /* Rounded corners for input fields */
 .root .rounded-2xl {
    border-radius: 0.5rem !important;
@@ -15,6 +19,11 @@
 /* Private chat: send icon background color */
 svg rect {
    fill: #FFCD33 !important;
+}
+
+/* Private chat: send icon border */
+#send-div {
+   background-color: #FFCD33;
 }
 
 /* Private chat: send icon plane color */
@@ -37,6 +46,8 @@ g[mask] path {
 .pn-msg:hover {
    background: #FBF8F3 !important; 
 }
+
+
 
 
 
