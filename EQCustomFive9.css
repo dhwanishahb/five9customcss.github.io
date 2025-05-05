@@ -3,6 +3,7 @@
 @tailwind utilities; */
 
 :root {
+   /* To change the chat back ground*/
    --linear: #FBF8F3 !important
 }
 
