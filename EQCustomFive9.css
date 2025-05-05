@@ -4,7 +4,7 @@
 
 :root {
    /* To change the chat back ground*/
-   --linear: #FBF8F3 !important
+   --linear: linear-gradient(#FBF8F3) !important;
 }
 
 /* Rounded corners for input fields */
