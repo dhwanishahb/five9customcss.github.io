@@ -3,6 +3,11 @@
    --linear: linear-gradient(#FBF8F3) !important;
 }
 
+/* To keep the chat back ground as same on hover*/
+.pn-msg:hover {
+   background: #FBF8F3 !important; 
+}
+
 /* Rounded corners for input fields */
 .root .rounded-2xl {
    border-radius: 0.5rem !important;
@@ -40,14 +45,10 @@ g[mask] path {
    color: rgb(0, 0, 0) !important;
 }
 
-.pn-msg:hover {
-   background: #FBF8F3 !important; 
-}
-
-/* To remove the chat header */
+/* To remove the chat header 
 .root .w-full {
    width: 0%;
-}
+} */
 
 
 
