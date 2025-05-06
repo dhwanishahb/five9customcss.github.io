@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @font-face {
+        font-family: 'EQBUncutSans';
+        src: url('EQBUncutSans-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        src: url('Inter-VariableFont_opsz_wght.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: normal;
+      }
+
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #container {
+        display: flex;
+        width: 100%;
+        height: 95%;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      #inner-frame {
+        flex-grow: 1;
+        border: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+      }
+      .status {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* fills the iFrame vertically */
+        padding: 1.5em;
+        text-align: center;
+        font-family: EQBUncutSans, Arial, sans-serif;
+      }
+
+      .status-text {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-bottom: 1em;
+        color: #222;
+      }
+
+      /* Simple animated spinner */
+      .spinner {
+        width: 1.5em;
+        height: 1.5em;
+        border: 3px solid #ccc;
+        border-top: 3px solid #333;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .status-error {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.3em;
+      }
+
+      .status-secondary {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 1em 0 0 0; /* top right bottom left */
+        font-family: Inter, Arial, sans-serif;
+      }
+
+      .status-error-phone {
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        color: #000;
+        padding: 0 0 0 0.3em;
+        font-family: Inter, Arial, sans-serif;
+      }
+    </style>
+    <title>Live Agent Session</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="status" class="status">
+        <div class="spinner" role="status" aria-label="Loading"></div>
+      </div>
+    </div>
+    <script src="/sdk/widget-sdk.js"></script>
+    <script src="five9eqb.js"></script>
+    <script type="module">
+      import { handoff } from './handoff.js';
+      handoff();
+    </script>
+  </body>
+</html>
