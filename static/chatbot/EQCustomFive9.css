@@ -1,11 +1,12 @@
 :root {
    /* To change the chat back ground*/
-   --linear: linear-gradient(#FBF8F3) !important;
+   /*--linear: linear-gradient(#FBF8F3) !important; /*Cream*/
+   --linear: linear-gradient(#FFFFFF) !important; /*White*/
 }
 
 /* To keep the chat back ground as same on hover*/
 .pn-msg:hover {
-   background: #FBF8F3 !important; 
+   background: #FBF8F3 !important;
 }
 
 /* Rounded corners for input fields */
@@ -45,11 +46,25 @@ g[mask] path {
    color: rgb(0, 0, 0) !important;
 }
 
-/* To remove the chat header 
+/* Start here :: To remove the chat header */
 .root .w-full {
    width: 0%;
 } */
 
+.ktkpId {
+   background-color: rgb(251, 248, 243);
+}
+
+/*
+.root .h-\[7\%\] {
+   height: 0%;
+} */
+
+.root .border-b-\[1px\], .root .border-b {
+   border-bottom-width: 0px;
+}
+
+/* Ends here :: To remove the chat header */
 
 
 
