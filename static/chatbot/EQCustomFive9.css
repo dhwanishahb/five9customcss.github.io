@@ -46,7 +46,7 @@ g[mask] path {
    color: rgb(0, 0, 0) !important;
 }
 
-/* Start here :: To remove the chat header */
+/* Start here :: To remove the chat header /
 .root .w-full {
    width: 0%;
 } */
@@ -55,11 +55,11 @@ g[mask] path {
    background-color: rgb(251, 248, 243);
 }
 
-/*
 .root .h-\[7\%\] {
    height: 0%;
-} */
+}
 
+/* Removing the border of the chat header */
 .root .border-b-\[1px\], .root .border-b {
    border-bottom-width: 0px;
 }
