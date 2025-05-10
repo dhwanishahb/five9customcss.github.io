@@ -93,13 +93,13 @@ g[mask] path {
    height: 602px !important;
 }
 
-/* Five9 Chat Cancel button and its container settings /
+/* Five9 Chat Cancel button and its container settings */
 .fqOYzd {
    margin: -20px !important;
    font-size: 1.2rem !important;
 }
 
-/* Pulling the message input box down/
+/* Pulling the message input box down */
 .root .h-\[3vh\] {
    height: 1vh !important;
 }
@@ -109,4 +109,3 @@ g[mask] path {
    bottom: 6px !important;
    margin-bottom: 6px !important;
 }
-*/
