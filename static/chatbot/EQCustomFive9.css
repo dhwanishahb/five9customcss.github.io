@@ -96,7 +96,10 @@ g[mask] path {
 /* Five9 Chat Cancel button and its container settings */
 .fqOYzd {
    margin: -20px !important;
+   border: 1px !important;
    font-size: 1.2rem !important;
+   width: 110% !important;
+   line-height: 10px !important;
 }
 
 /* Pulling the message input box down */
