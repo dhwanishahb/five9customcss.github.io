@@ -71,6 +71,31 @@ g[mask] path {
    width: 99%;
 }
 
+/* Five9 widget height */
+.gmZwMx {
+   width: calc(100% - 16px);
+   display: block;
+   margin: auto;
+   border: none;
+   height: 588px !important;
+}
+
+/* Five9 Chat Cancel button and its container settings */
+.fqOYzd {
+   margin: -20px !important;
+   font-size: 1,2rem !important;
+}
+
+/* Pulling the message input box down*/
+.root .h-\[3vh\] {
+   height: 1vh !important;
+}
+
+.f9ChatWidget {
+   right: 4px !important;
+   bottom: 6px !important;
+   margin-bottom: 6px !important;
+}
 
 
 
