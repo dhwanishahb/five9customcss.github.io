@@ -48,7 +48,7 @@ g[mask] path {
 
 /* rounded border of the chatter's message on the right bottom */
 .root .rounded-br-none {
-   border-bottom-right-radius: 1;
+   border-bottom-right-radius: 1 !important;
 }
 
 /* aligning textbox input area */
@@ -98,11 +98,11 @@ g[mask] path {
    margin: -20px !important;
    border: 1px !important;
    font-size: 1.2rem !important;
-   width: 110% !important;
+   width: 110vw !important;
    line-height: 10px !important;
 }
 
-/* Pulling the message input box down */
+/* Pulling the message input box down /
 .root .h-\[3vh\] {
    height: 1vh !important;
 }
