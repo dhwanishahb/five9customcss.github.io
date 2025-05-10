@@ -1,7 +1,7 @@
 :root {
    /* To change the chat back ground*/
-   /*--linear: linear-gradient(#FBF8F3) !important; /*Cream*/
-   --linear: linear-gradient(#FFFFFF) !important; /*White*/
+   --linear: linear-gradient(#FBF8F3) !important; /*Cream*/
+   /*--linear: linear-gradient(#FFFFFF) !important; /*White*/
 }
 
 /* To keep the chat back ground as same on hover*/
@@ -12,11 +12,6 @@
 /* Rounded corners for input fields */
 .root .rounded-2xl {
    border-radius: 0.5rem !important;
-}
-
-/* back-ground color of message sent by chatter */
-.hMgqRg {
-   background-color: rgb(0, 0, 0) !important;
 }
 
 /* Private chat: send icon background color */
@@ -46,10 +41,25 @@ g[mask] path {
    color: rgb(0, 0, 0) !important;
 }
 
+/* back-ground color of message sent by chatter */
+.hMgqRg {
+   background-color: rgb(0, 0, 0) !important;
+}
+
+/* rounded border of the chatter's message on the right bottom */
+.root .rounded-br-none {
+   border-bottom-right-radius: 1;
+}
+
+/* aligning textbox input area */
+.root .pl-3 {
+   padding-left: 1.2rem !important;
+}
+
 /* Start here :: To remove the chat header /
 .root .w-full {
    width: 0%;
-} */
+} 
 
 .ktkpId {
    background-color: rgb(251, 248, 243) !important;
@@ -66,12 +76,12 @@ g[mask] path {
 
 /* Ends here :: To remove the chat header */
 
-/* Aligning five9 widget content to the center */
+/* Aligning five9 widget content to the center /
 .root .w-\[100\%\] {
    width: 99%;
 }
 
-/* Five9 widget height */
+/* Five9 widget height /
 .gmZwMx {
    width: calc(100% - 16px);
    display: block;
@@ -80,13 +90,13 @@ g[mask] path {
    height: 602px !important;
 }
 
-/* Five9 Chat Cancel button and its container settings */
+/* Five9 Chat Cancel button and its container settings /
 .fqOYzd {
    margin: -20px !important;
-   font-size: 1,2rem !important;
+   font-size: 1.2rem !important;
 }
 
-/* Pulling the message input box down*/
+/* Pulling the message input box down/
 .root .h-\[3vh\] {
    height: 1vh !important;
 }
@@ -96,6 +106,4 @@ g[mask] path {
    bottom: 6px !important;
    margin-bottom: 6px !important;
 }
-
-
-
+*/
