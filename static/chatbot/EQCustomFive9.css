@@ -104,9 +104,9 @@ g[mask] path {
 /* Moving widget to the right */
 .f9ChatWidget {
     position: fixed;
-    right: 1px;
-    bottom: 1px;
-    margin-bottom: -1px;
+    right: 1px !important;
+    bottom: 1px !important;
+    margin-bottom: -1px !important;
     z-index: 9996;
     border: none;
 }
