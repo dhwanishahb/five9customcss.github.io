@@ -76,3 +76,7 @@ g[mask] path {
 .root .w-\[100\%\] {
    width: 99%;
 }
+
+.chat_container {
+   line-height: 1.1 !important;
+}
