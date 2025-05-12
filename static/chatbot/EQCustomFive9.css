@@ -53,6 +53,9 @@ g[mask] path {
 .root .border-b-\[1px\] .root .border-b {
    border-bottom-width: 0px !important; /* Removing the border of the chat header */
 }
+.ktkpId {
+   background-color: rgb(251, 248, 243) !important;
+}
 /* End here :: To remove the chat header */
 
 
