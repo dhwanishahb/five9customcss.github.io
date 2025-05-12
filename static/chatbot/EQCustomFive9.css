@@ -53,11 +53,6 @@ g[mask] path {
 .root .border-b-\[1px\] .root .border-b {
    border-bottom-width: 0px !important; /* Removing the border of the chat header */
 }
-
-.ktkpId {
-   background-color: rgb(251, 248, 243) !important;
-}
-
 /* End here :: To remove the chat header */
 
 
@@ -66,11 +61,6 @@ g[mask] path {
    width: 99%;
 }
 */
-
-/* Five9 widget height to fit with the Ada's chat header*/
-.gmZwMx {
-   height: 600px !important;
-}
 
 /* ######### Alignment of the Five9 widget to the center of Ada's frame ######### */
 /* Five9 Chat Cancel button and its container settings /
