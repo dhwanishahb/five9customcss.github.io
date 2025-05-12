@@ -46,18 +46,14 @@ g[mask] path {
    background-color: rgb(0, 0, 0) !important;
 }
 
-/* rounded border of the chatter's message on the right bottom - not working from custom css but works inline change(To be debugged)*/
-.root .rounded-br-none {
-   border-bottom-right-radius: 1 !important;
-}
-
-
-
-/* Start here :: To remove the chat header /
+/* Start here :: To clean five9 chat header */
 .root .h-\[7\%\] {
-   height: 0% !important;
+   height: 0% !important; /* Removing the chat header */
 }
-*/
+.root .border-b-\[1px\] .root .border-b {
+   border-bottom-width: 0px !important; /* Removing the border of the chat header */
+}
+/* End here :: To remove the chat header */
 
 /*
 .root .w-full {
@@ -67,21 +63,12 @@ g[mask] path {
 .ktkpId {
    background-color: rgb(251, 248, 243) !important;
 }
-/* End here :: To remove the chat header */
-
-
-/* Removing the border of the chat header 
-.root .border-b-\[1px\] .root .border-b {
-   border-bottom-width: 0px !important;
-} */
-
-/* Ends here :: To remove the chat header */
 
 /* Aligning five9 widget content to the center /
 .root .w-\[100\%\] {
    width: 99%;
 }
-
+*/
 /* Five9 widget height /
 .gmZwMx {
    width: calc(100% - 16px);
@@ -128,4 +115,12 @@ g[mask] path {
    right: 4px !important;
    bottom: 6px !important;
    margin-bottom: 6px !important;
+}
+
+
+
+
+/* rounded border of the chatter's message on the right bottom - not working from custom css but works inline change(To be debugged)*/
+.root .rounded-br-none {
+   border-bottom-right-radius: 1 !important;
 }
