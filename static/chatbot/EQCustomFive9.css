@@ -54,7 +54,16 @@ g[mask] path {
    border-bottom-width: 0px !important; /* Removing the border of the chat header */
 }
 .ktkpId {
-   background-color: rgb(251, 248, 243) !important;
+   /*background-color: rgb(251, 248, 243) !important; /* Cream */
+   background-color: rgb(255, 255, 255) !important; /* White */
+}
+/* Hide the close button on chat header */
+.root .w-\[24px\] {
+   width: 0px;
+}
+
+.root .h-\[24px\] {
+   height: 0px;
 }
 /* End here :: To remove the chat header */
 
@@ -64,5 +73,5 @@ g[mask] path {
 }
 
 .root .fixed {
-   position: relative!important;
+   position: relative !important;
 }
