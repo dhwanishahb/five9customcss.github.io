@@ -58,9 +58,11 @@ g[mask] path {
 }
 /* End here :: To remove the chat header */
 
-
 /* Aligning five9 widget chatter message input to the center */
 .root .w-\[100\%\] {
    width: 99%;
 }
 
+.root .fixed {
+   position: relative!important;
+}
