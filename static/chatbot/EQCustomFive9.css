@@ -63,14 +63,14 @@ g[mask] path {
 */
 
 /* ######### Alignment of the Five9 widget to the center of Ada's frame ######### */
-/* Five9 Chat Cancel button and its container settings /
+/* Five9 Chat Cancel button and its container settings */
 .fqOYzd {
    margin: -20px !important;
    border: 1px !important;
    font-size: 1.2rem !important;
    width: 110vw !important;
    line-height: 10px !important;
-} */
+}
 
 /* aligning textbox input area */
 .root .pl-3 {
@@ -82,12 +82,12 @@ g[mask] path {
    height: 1vh !important;
 }
 
-/* /* Moving widget to the right  -- to be debugged */
+/* Moving widget to the right  -- to be debugged /
 .f9ChatWidget { 
    right: 1px !important;
    bottom: 1px !important;
    margin-bottom: -1px !important;
-}
+} */
 
 /* ######### End of Alignment of the Five9 widget to the center of Ada's frame ######### */
 
