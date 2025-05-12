@@ -84,22 +84,19 @@ g[mask] path {
    padding-left: 1.2rem !important;
 }
 
-
 /* ######### End of Alignment of the Five9 widget to the center of Ada's frame ######### */
 
-/* Pulling the message input box down /
+/* Pulling the message input box down */
 .root .h-\[3vh\] {
    height: 1vh !important;
 }
 
-.f9ChatWidget {
-   right: 4px !important;
-   bottom: 6px !important;
-   margin-bottom: 6px !important;
+/* to be debugged */
+.f9ChatWidget { 
+   right: 1px !important;
+   bottom: 1px !important;
+   margin-bottom: -1px !important;
 }
-
-
-
 
 /* rounded border of the chatter's message on the right bottom - not working from custom css but works inline change(To be debugged)*/
 .root .rounded-br-none {
