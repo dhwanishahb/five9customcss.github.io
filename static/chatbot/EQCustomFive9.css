@@ -72,6 +72,11 @@ g[mask] path {
    width: 99%;
 }
 
+.f9ChatWidget {
+   position: fixed;
+   right: 4px !important;
+}
+
 /*
 .root .fixed {
    position: relative !important;
