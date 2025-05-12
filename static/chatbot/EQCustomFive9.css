@@ -53,10 +53,11 @@ g[mask] path {
 
 
 
-/* Start here :: To remove the chat header */
+/* Start here :: To remove the chat header /
 .root .h-\[7\%\] {
    height: 0% !important;
 }
+*/
 
 /*
 .root .w-full {
@@ -99,7 +100,6 @@ g[mask] path {
    width: 110vw !important;
    line-height: 10px !important;
 }
-*/
 
 /* Moving widget to the right */
 .f9ChatWidget {
