@@ -62,37 +62,3 @@ g[mask] path {
 }
 */
 
-/* ######### Alignment of the Five9 widget to the center of Ada's frame ######### */
-/* Five9 Chat Cancel button and its container settings */
-.fqOYzd {
-   margin: -20px !important;
-   border: 1px !important;
-   font-size: 1.2rem !important;
-   width: 110vw !important;
-   line-height: 10px !important;
-}
-
-/* aligning textbox input area */
-.root .pl-3 {
-   padding-left: 1.2rem !important;
-}
-
-/* Pulling the message input box down */
-.root .h-\[3vh\] {
-   height: 1vh !important;
-}
-
-/* Moving widget to the right  -- to be debugged /
-.f9ChatWidget { 
-   right: 1px !important;
-   bottom: 1px !important;
-   margin-bottom: -1px !important;
-} */
-
-/* ######### End of Alignment of the Five9 widget to the center of Ada's frame ######### */
-
-
-/* rounded border of the chatter's message on the right bottom - not working from custom css but works inline change(To be debugged)*/
-.root .rounded-br-none {
-   border-bottom-right-radius: 1 !important;
-}
