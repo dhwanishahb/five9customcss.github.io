@@ -69,13 +69,10 @@ g[mask] path {
    width: 99%;
 }
 */
-/* Five9 widget height /
+
+/* Five9 widget height to fit with the Ada's chat header*/
 .gmZwMx {
-   width: calc(100% - 16px);
-   display: block;
-   margin: auto;
-   border: none;
-   height: 602px !important;
+   height: 600px !important;
 }
 
 /* ######### Alignment of the Five9 widget to the center of Ada's frame ######### */
