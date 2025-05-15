@@ -46,7 +46,7 @@ g[mask] path {
    background-color: rgb(0, 0, 0) !important;
 }
 
-/* rounded border of the chatter's message on the right bottom - not working from custom css but works inline change(To be debugged)*/
+/* rounded border of the chatter's message on the right bottom */
 .root .rounded-br-none {
    border-bottom-right-radius: 1vh !important;
 }
@@ -77,6 +77,22 @@ g[mask] path {
    width: 99%;
 }
 
+/* Reducing line height of the message containers to resemble Ada's */
 .chat_container {
    line-height: 1.1 !important;
+}
+
+/* To take the chatter text input box to further down near cancel button */
+.root .h-\[3vh\] {
+   height: 0vh;
+}
+
+/* Invisible dark white bubble around message sent by agent */
+.root .pn-msg__bubble {
+   box-shadow: -1px 0 1px #FFFFFF, -1px 0 4px #FFFFFF, -1px 4px 16px #FFFFFF !important;
+}
+
+/* Reduction in space between messages */
+.root .mt-2 {
+   margin-top: -1rem !important;
 }
