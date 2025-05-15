@@ -4,6 +4,7 @@
    --linear: linear-gradient(#FFFFFF) !important; /*White*/
    --lm-digital-web-messenger-forms-helper-text-font-size: 0px !important; /* To remove the text 'TIME value'*/
    --lm-digital-web-messenger-body-small-font-size: 0px !important; /* To remove the text "Author/Agent name"*/
+   --lm-digital-web-messenger-form-default-border: #DEDEDE; /* To change the border color of the input field*/
 }
 
 /* To keep the chat back ground as cream on hover*/
@@ -97,4 +98,17 @@ g[mask] path {
 /* Reduction in space between messages */
 .root .mt-2 {
    margin-top: -1rem !important;
+}
+
+/* Resizing the agent short name yello icon to smaller one*/
+.root .rounded-full {
+   border-radius: 20px;
+}
+
+.root .gap-2 {
+   gap: 0rem;
+}
+
+.root .pn-msg-input__wrapper {
+   border-radius: 7px; /* To make the input field less rounded */
 }
