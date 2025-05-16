@@ -132,3 +132,5 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
    margin: 0.5rem !important;
 }
 
+
+/*public static readonly ADAXFIVE9_CUSTOM_CSS_URL = new URL('EQCustomFive9HandOff.css', import.meta.url).href;*/
