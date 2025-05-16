@@ -37,7 +37,7 @@
    --lm-digital-web-messenger-primary-secondary: #eb004a;
    --lm-digital-web-messenger-button-primary-default-background: #4b5dff;
    --lm-digital-web-messenger-button-primary-default-text: #ffffff;
-   --lm-digital-web-messenger-button-primary-hover-background: #384aea;
+   --lm-digital-web-messenger-button-primary-hover-background: #0E0D0C;
    --lm-digital-web-messenger-button-primary-active-background: #2433b7;
    --lm-digital-web-messenger-button-minimal-default-text: #4b5dff;
    --lm-digital-web-messenger-button-minimal-hover-text: #384aea;
@@ -46,8 +46,8 @@
    --lm-digital-web-messenger-button-minimal-active-background: #bedbf6;
    --lm-digital-web-messenger-button-secondary-default-border: #4b5dff;
    --lm-digital-web-messenger-button-secondary-default-text: #4b5dff;
-   --lm-digital-web-messenger-button-secondary-hover-background: #384aea;
-   --lm-digital-web-messenger-button-secondary-hover-text: #ffffff;
+   --lm-digital-web-messenger-button-secondary-hover-background: #ffffff;
+   --lm-digital-web-messenger-button-secondary-hover-text: #0E0D0C;
    --lm-digital-web-messenger-button-secondary-active-background: #2433b7;
    --lm-digital-web-messenger-button-secondary-active-text: #ffffff;
    --lm-digital-web-messenger-button-default-font-family: Poppins;
