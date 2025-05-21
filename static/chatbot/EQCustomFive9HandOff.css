@@ -38,8 +38,8 @@ g[mask] path {
 
 /* EQ Bot Icon background color*/
 .root .bg-neutral-focus {
-   --tw-bg-opacity: 1;
-   background-color: #FFCD33 !important;
+   /*background-color: #FFCD33 !important;*/
+   background-color: #0E0D0C !important; /* Black - To mitigate side effects of common text-neutral-content */
 }
 
 /* EQ Bot Icon Font color and chat closure box text "Your history will clear in *m*s*/*/
@@ -132,10 +132,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
    margin: 0.5rem !important;
 }
 
-/* Font color change for "Your history will clear in *m*s*/
-.root .text-neutral-content {
-   --tw-text-opacity: 1;
-   color: #000000;
+.root .rounded-none {
+   border-radius: 2rem !important;
 }
 
 
