@@ -11,10 +11,10 @@
    --lm-digital-web-messenger-button-secondary-hover-text: #0E0D0C !important;
 }
 
-/* To keep the chat back ground as cream on hover*/
+/* To keep the chat back ground as cream on hover/
 .pn-msg:hover {
    background: #FBF8F3 !important;
-}
+} */
 
 /* Rounded corners for input fields */
 .root .rounded-2xl {
@@ -36,16 +36,16 @@ g[mask] path {
    fill: #0E0D0C !important;
 }
 
-/* EQ Bot Icon background color */
+/* EQ Bot Icon background color*/
 .root .bg-neutral-focus {
    --tw-bg-opacity: 1;
    background-color: #FFCD33 !important;
 }
 
-/* EQ Bot Icon Font color */
+/* EQ Bot Icon Font color and chat closure box text "Your history will clear in *m*s*/*/
 .root .text-neutral-content {
-   --tw-text-opacity: 1;
-   color: rgb(0, 0, 0) !important;
+   /*color: rgb(0, 0, 0) !important;*/
+   color: rgb(255, 255, 255) !important;
 }
 
 /* back-ground color of message sent by chatter */
@@ -130,6 +130,12 @@ g[mask] path {
 
 blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
    margin: 0.5rem !important;
+}
+
+/* Font color change for "Your history will clear in *m*s*/
+.root .text-neutral-content {
+   --tw-text-opacity: 1;
+   color: #000000;
 }
 
 
